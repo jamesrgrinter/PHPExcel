@@ -498,7 +498,7 @@ class PHPExcel_Calculation {
 												),
 				'COUNTIFS'				=> array('category'			=>	PHPExcel_Calculation_Function::CATEGORY_STATISTICAL,
 												 'functionCall'		=>	'PHPExcel_Calculation_Functions::DUMMY',
-												 'argumentCount'	=>	'?'
+												 'argumentCount'	=>	'3+'
 												),
 				'COUPDAYBS'				=> array('category'			=>	PHPExcel_Calculation_Function::CATEGORY_FINANCIAL,
 												 'functionCall'		=>	'PHPExcel_Calculation_Financial::COUPDAYBS',
@@ -1511,7 +1511,7 @@ class PHPExcel_Calculation {
 												),
 				'SUMIFS'				=> array('category'			=>	PHPExcel_Calculation_Function::CATEGORY_MATH_AND_TRIG,
 												 'functionCall'		=>	'PHPExcel_Calculation_Functions::DUMMY',
-												 'argumentCount'	=>	'?'
+												 'argumentCount'	=>	'3+'
 												),
 				'SUMPRODUCT'			=> array('category'			=>	PHPExcel_Calculation_Function::CATEGORY_MATH_AND_TRIG,
 												 'functionCall'		=>	'PHPExcel_Calculation_MathTrig::SUMPRODUCT',
